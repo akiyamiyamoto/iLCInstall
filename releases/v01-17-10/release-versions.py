@@ -141,7 +141,7 @@ Geant4_version =  "10.01" # "10.02.p01" # "10.01"
 print "value for use_cpp11: ", use_cpp11
 
 if use_cpp11:
-    ROOT_version = "6.06.02"
+    ROOT_version = "6.06.06"
     print " I install ROOT version : 6. " , ROOT_version , use_cpp11
 else:
     ROOT_version = "5.34.30"
@@ -153,7 +153,7 @@ GSL_version = "2.1" # "1.14"
 
 QT_version = "4.7.4"
 
-CMake_version = "3.4.3" # "2.8.5"
+CMake_version = "3.5.2" # "2.8.5"
 
 CED_version = "v01-09-01"
 
@@ -205,7 +205,7 @@ LCCD_version = "v01-03-01" # "v01-03"
 
 RAIDA_version = "v01-07" # "v01-06-02"
 
-MarlinUtil_version = "v01-12" # "v01-10"
+MarlinUtil_version = "v01-08" # "v01-10"
 
 Marlin_version = "v01-09" # "v01-07"
 
@@ -275,5 +275,7 @@ XercesC_version = "3.1.2"
 #SLIC_version = "ilcsoft-v01-17-07"
 #SlicPandora_version = "ilcsoft-v01-17-07"
 
-
-
+#EUTelescope et al.:
+Eutelescope_version = "tags/v1.0"
+Eudaq_version = "tags/v1.6.0"
+Millepede2_version = 'tags/V04-00-02'

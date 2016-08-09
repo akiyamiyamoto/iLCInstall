@@ -19,7 +19,7 @@ class MarlinUtil(MarlinPKG):
         self.hasCMakeFindSupport = True
 
         # required modules
-        self.reqmodules = [ "Marlin", "GSL", "CLHEP", "GEAR", "LCIO" , "CED" , "DD4hep", "ROOT" ]
+        self.reqmodules = [ "Marlin", "GSL", "CLHEP", "GEAR", "LCIO" , "CED" , "ROOT" ]
 
         # cvs root
         self.download.root = "marlinreco"

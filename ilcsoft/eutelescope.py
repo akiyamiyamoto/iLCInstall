@@ -106,11 +106,6 @@ class Eutelescope(MarlinPKG):
 
     def setMode(self, mode):
         MarlinPKG.setMode(self, mode)
-
-        # github download via svn or git clone depending on the chosen version
-        if( not self.version == 'trunk' ):
-            self.download.type = "svn"
-        else: # devel version -- use git clone
-            self.download.type = "git-clone"
-            # reset url to remove path to branches, trunk, etc.
-            self.download.svnurl = 'https://github.com/eutelescope/eutelescope'
+        self.download.type = "git-clone"
+        #reset url to remove path to branches, trunk, etc.
+        self.download.svnurl = 'https://github.com/eutelescope/eutelescope'
