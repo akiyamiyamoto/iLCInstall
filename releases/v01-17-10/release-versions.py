@@ -165,7 +165,7 @@ GEAR_version = "v01-06" # "v01-04-02"
 
 CondDBMySQL_version = "CondDBMySQL_ILC-0-9-6"
 
-ILCUTIL_version = "v01-03"  #  "v01-02-01" 
+ILCUTIL_version = "v01-02-01" 
 
 FastJet_version = "3.2.0"
 FastJetcontrib_version = "1.024"
