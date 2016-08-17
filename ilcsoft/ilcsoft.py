@@ -343,9 +343,9 @@ class ILCSoft:
         f.write( "option(USE_CXX11" + " \"Use cxx11\" " + useCxx11 +")" )
         f.write( os.linesep )
         f.write( "option(Boost_NO_BOOST_CMAKE"  + " " + "\"dont use cmake find module for boost\"" + " " + noBoostCMake +")"  )
-        f2.write( "option(USE_CXX11" + " \"Use cxx11\" " + useCxx11 +")" )
-        f2.write( os.linesep )
-        f2.write( "option(Boost_NO_BOOST_CMAKE "  + " " + "\"dont use cmake find module for boost\"" + " " + noBoostCMake +")"  )
+        #f2.write( "option(USE_CXX11" + " \"Use cxx11\" " + useCxx11 +")" )
+        #f2.write( os.linesep )
+        #f2.write( "option(Boost_NO_BOOST_CMAKE "  + " " + "\"dont use cmake find module for boost\"" + " " + noBoostCMake +")"  )
 
         f.write( os.linesep )
         f2.write( os.linesep )
