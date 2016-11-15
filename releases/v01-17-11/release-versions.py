@@ -46,6 +46,7 @@ ilcsoft_install_prefix = ilcsoft_afs_path[ arch ]
 #ilcsoft_install_prefix = "/afs/desy.de/project/ilcsoft/sw/x86_64_gcc44_sl6/"
 #ilcsoft_install_prefix = "/nfs/dust/ilc/user/voutsina/testarea/ilcsoft_c11/"
 #ilcsoft_install_prefix = "/scratch/ilcsoft/"
+ilcsoft_install_prefix = "/cvmfs/ilc.desy.de/sw/x86_64_gcc48_sl6/"
 
 # ----------------------------------------------------------------------------
 #--- the ilcsoft_release is now automatically appended in release-ilcsoft.cfg 
@@ -141,7 +142,7 @@ Geant4_version =  "10.01" # "10.02.p01" # "10.01"
 print "value for use_cpp11: ", use_cpp11
 
 if use_cpp11:
-    ROOT_version = "6.06.02" #"6.08.00"
+    ROOT_version = "6.08.00"
     print " I install ROOT version : 6. " , ROOT_version , use_cpp11
 else:
     ROOT_version = "5.34.30"
