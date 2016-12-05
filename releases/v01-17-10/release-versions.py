@@ -141,7 +141,7 @@ Geant4_version =  "10.01" # "10.02.p01" # "10.01"
 print "value for use_cpp11: ", use_cpp11
 
 if use_cpp11:
-    ROOT_version = "6.06.06"
+    ROOT_version = "6.08.00"
     print " I install ROOT version : 6. " , ROOT_version , use_cpp11
 else:
     ROOT_version = "5.34.30"
@@ -161,7 +161,7 @@ CED_version = "v01-09-01"
 
 LCIO_version = "v02-07-02" # "v02-06"
 
-GEAR_version = "v01-06" # "v01-04-02" 
+GEAR_version = "v01-06-eutel-pre" # "v01-04-02" 
 
 CondDBMySQL_version = "CondDBMySQL_ILC-0-9-6"
 
@@ -276,6 +276,6 @@ XercesC_version = "3.1.2"
 #SlicPandora_version = "ilcsoft-v01-17-07"
 
 #EUTelescope et al.:
-Eutelescope_version = "tags/v1.0"
-Eudaq_version = "tags/v1.6.0"
+Eutelescope_version = "master"
+Eudaq_version = "branches/v1.7-dev"
 Millepede2_version = 'tags/V04-00-02'
