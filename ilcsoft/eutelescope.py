@@ -99,6 +99,9 @@ class Eutelescope(MarlinPKG):
         self.env["EUTELESCOPE"] = self.installPath
         self.envpath["PATH"].append( '$EUTELESCOPE/bin' )
         self.envpath["LD_LIBRARY_PATH"].append( '$EUTELESCOPE/lib' )
+        # EUTelescope will also create libEutelProcessors.so and libEutelReaders.so (along with libEutelescope.so which gets added by default as it is the package name)
+        self.parent.module('Marlin').envpath["MARLIN_DLL"].append( '$EUTELESCOPE/lib/libEutelProcessors.so' )
+        self.parent.module('Marlin').envpath["MARLIN_DLL"].append( '$EUTELESCOPE/lib/libEutelReaders.so' )
         # if EUDAQ is installed, adjust paths and Marlin libraries to be loaded
         if self.env.get( "EUDAQ_VERSION", "" ):
             self.envpath["LD_LIBRARY_PATH"].append( '$EUDAQ/lib' )
