@@ -1,5 +1,4 @@
 # iLCInstall
-[![Build Status](https://travis-ci.org/iLCSoft/iLCInstall.svg?branch=master)](https://travis-ci.org/iLCSoft/iLCInstall)
 
 Installation script that enable a fully automated installation of iLCSoft with minimal user intervention.
 
